@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Bookstore</title>
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+    <div class="flex flex-col w-full max-width navbar">
+        <div class="flex flex-row w-full items-center p-4">
+        <input placeholder="搜索" class="flex-1 my-input" id="search-input"/>
+        </div>
+    </div>
+    <div class="w-full flex flex-col items-center" style="margin-top: 72px;">
+    
+    <div id="book-list" class="w-full max-width">
+        <h1 class="mt-8 text-center">载入中...</h1>
+    </div>
+    </div>
+    <script src="./index.js" type="text/javascript"></script>
 </body>
 </html>

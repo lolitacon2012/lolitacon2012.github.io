@@ -1,0 +1,64 @@
+body,
+html {
+    background-color: rgb(111, 172, 188);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(51, 88, 97);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.my-input,
+.my-input:focus {
+    color           : #f0f8ff;
+    background-color: transparent;
+    outline         : none;
+    padding         : 8px;
+    font-size       : 16px;
+}
+
+.my-input::placeholder {
+    color  : rgb(139, 210, 227);
+    opacity: 1;
+    /* Firefox */
+}
+
+p,
+h1 {
+    color              : #f0f8ff;
+    padding            : 0;
+    margin             : 0;
+    margin-block-end   : 0;
+    margin-block-start : 0;
+    margin-inline-start: 0;
+    margin-inline-end  : 0;
+}
+
+p {
+    font-size  : 12px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size  : 12px;
+    font-weight: 500;
+}
+
+.border-color-white {
+    border-color: #f0f8ffa1;
+}
+
+.max-width {
+    max-width: 1024px;
+}
+
+.dark-book-row {
+    background-color: rgb(83, 142, 157);
+}

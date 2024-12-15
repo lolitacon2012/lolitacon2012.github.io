@@ -1,0 +1,11 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx serve"
+  },
+  "author": "",
+  "license": "ISC"
+}
